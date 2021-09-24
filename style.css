@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: dodgerblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#game-board {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+    border: solid 4px rgb(226, 226, 226);
+    margin-bottom: 2em;
+}
+
+#game-board td {
+    color: white;
+    font-size: 4em;
+    border: solid 3px rgb(255, 251, 251);
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size: 65px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+button {
+    padding: 10px 50px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
