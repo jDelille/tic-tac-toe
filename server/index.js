@@ -3,8 +3,11 @@ const path = require('path')
 
 const app = express()
 
+app.use(express.static("client"));
+
+
 app.get('/',function(req,res) {
-  res.sendFile(path.join(__dirname, '../tictacjs.html'));
+  res.sendFile(path.join(__dirname, '../client/tictacjs.html'));
 });
 
 const port = process.env.PORT || 4000
